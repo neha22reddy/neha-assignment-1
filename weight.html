@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Weight Converter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Weight Converter</h1>
+        <div class="hy">
+        <p>
+            <label>Pounds</label>
+            <input id="inputPounds" type="number"  min="0"
+            oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+          </p>
+          <p >Grams: <span id="outputGrams"></span></p>
+        </div>
+        <script>
+            function weightConverter(valNum) {
+                document.getElementById("outputGrams").innerHTML = valNum / 0.0022046;
+            }
+
+        </script>
+    </body>
