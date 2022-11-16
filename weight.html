@@ -9,15 +9,15 @@
         <h1>Weight Converter</h1>
         <div class="hy">
         <p>
-            <label>Pounds</label>
-            <input id="inputPounds" type="number"  min="0"
+            <label>kilograms</label>
+            <input id="inputkilograms" type="number"  min="0"
             oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
           </p>
-          <p >Grams: <span id="outputGrams"></span></p>
+          <p >Grams: <span id="outputgrams"></span></p>
         </div>
         <script>
             function weightConverter(valNum) {
-                document.getElementById("outputGrams").innerHTML = valNum / 0.0022046;
+                document.getElementById("outputgrams").innerHTML = valNum / 0.0022046;
             }
 
         </script>
