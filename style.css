@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+    box-sizing: border-box;
+}
+
+html {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    
+}
+.hy{
+    top:55%;
+    left:30%;
+    height:100px;
+    width: 200px;
+    background-color: #efefef;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgb(124, 120, 120);
+    font-size:larger;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 150px;
+    align-items: center;
+  }
+#outputgrams{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
